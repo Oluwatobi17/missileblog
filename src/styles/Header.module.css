@@ -1,0 +1,58 @@
+header{
+    width: 100vw;
+}
+
+nav{
+    height: 60px;
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: 300ms;
+    font-family: 'Karla', sans-serif;
+}
+nav ul li a:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.logo{
+    width: 200px;
+}
+.profileimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 760px) {
+    .desktopMenu{
+        display: none;
+    }
+    nav{
+        padding: 10px 2%;
+        padding-right: 20px;        
+    }
+    .logo{
+        width: 100px;
+    }
+}

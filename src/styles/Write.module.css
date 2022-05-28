@@ -1,0 +1,35 @@
+.writecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.writecontainer h1{
+    color: coral;
+    font-weight: normal;
+}
+.createform{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.createform > div{
+    margin-bottom: 10px;
+}
+.createform label, .createform textarea{
+    margin-bottom: 5px;
+}
+.createform input, .createform textarea{
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    outline: none;
+}
+.submit{
+    color: white;
+    background-color: rgb(56, 171, 56);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

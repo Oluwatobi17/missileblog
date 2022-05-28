@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url(/public/assets/signup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.container form{
+    display: inline-block;
+    margin: 0px auto;
+    padding-top: 3%;
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container form label{
+    text-align: left;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+.container form input{
+    text-align: left;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+}
+.container h1{
+    color: white;
+    margin-top: 0px;
+}
+.submit{
+    background-color: rgb(56, 171, 56);
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+.submit:hover{
+    opacity: 0.8;
+}
