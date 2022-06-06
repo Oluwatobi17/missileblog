@@ -13,7 +13,7 @@ const Footer = (props) =>{
             </div>
         </div>
 
-        <p>Coded by <a href="https://portfolio-f576a.web.app/projects" target="_blank" rel="noreferrer">
+        <p>Coded by <a href="https://ganiuportfolio.vercel.app/" target="_blank" rel="noreferrer">
             Ganiu Ibrahim Olalekan
             </a></p>
     </footer>

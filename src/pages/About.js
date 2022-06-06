@@ -10,7 +10,7 @@ const About = () =>{
             using the link below.
 
         </p>
-        <a href="https://portfolio-f576a.web.app/projects" target="_blank">My Portfolio</a>
+        <a href="https://ganiuportfolio.vercel.app/projects" target="_blank">My Portfolio</a>
     </section>
 }
 
